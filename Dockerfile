@@ -21,4 +21,4 @@ RUN unzip /tmp/hellokt.zip -d /opt/ && \
     npm install
 
 WORKDIR /opt/hellokt-master/
-CMD ["npm","start"]
+CMD ["node","index.js"]
